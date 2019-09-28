@@ -1,0 +1,12 @@
+import tkinter
+root=tkinter.Tk()
+root.geometry('200x200+100+200')
+l1=tkinter.Label(root,text="Label1",bg='red')
+l2=tkinter.Label(root,text='Label2',bg='yellow')
+l3=tkinter.Label(root,text='Label3',bg='blue')
+l4=tkinter.Label(root,text='Label4',bg='black',fg='white')
+l1.place(x=0,y=0)
+l2.place(x=20,y=30)
+l3.place(x=40,y=50)
+l4.place(x=70,y=80)
+root.mainloop()
